@@ -1,97 +1,81 @@
 import React from 'react';
-import { CardDeck,  Card } from 'react-bootstrap';
-
+import { Nav ,  CardColumns, Image, Card } from 'react-bootstrap';
 
 
 export const About = () => (
   <div>
-    <CardDeck>
-  <Card>
-    <Card.Img variant="top" src="./src/assets/SD.jpeg/1000px1600" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
+    <CardColumns>
+  <Card style={{ width: '18rem' }}>
+  <Image variant="top" width='300px300' src="https://avatars1.githubusercontent.com/u/57896436?s=400&v=4" thumbnail />
+  <Card.Body>
+    <Card.Title>Lekhansh Ruprela</Card.Title>
+    <Card.Text>
+     Graphic Designer
+    </Card.Text>
+    <Nav.Link>https://github.com/Lekhanshlkr</Nav.Link>
+  </Card.Body>
+</Card>
+<br/>
 
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
+<Card style={{ width: '18rem' }}>
+  <Image variant="top" width='300px300' src="https://avatars1.githubusercontent.com/u/59762762?s=400&u=d4886c1c80fcc977513ae043e462f698861d93fd&v=4" thumbnail />
+  <Card.Body>
+    <Card.Title>Shreya Dhir</Card.Title>
+    <Card.Text>
+      Web Developer
+    </Card.Text>
+    <Nav.Link>https://github.com/ShreyaDhir</Nav.Link>
+  </Card.Body>
+</Card>
+<br/>
 
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
+<Card style={{ width: '18rem' }}>
+  <Image variant="top" width='300px300' src="https://avatars0.githubusercontent.com/u/24959303?s=400&u=0a35a4d322ed731572bbd11c4b141f592e1860d2&v=4" thumbnail />
+  <Card.Body>
+    <Card.Title>Junaid Rahim</Card.Title>
+    <Card.Text>
+      App Developer
+    </Card.Text>
+    <Nav.Link>https://github.com/junaidrahim</Nav.Link>
+  </Card.Body>
+</Card>
+<br/>
 
-  <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
-    <Card.Body>
-      <Card.Title>Card title</Card.Title>
-      <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
-      </Card.Text>
-    </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
-  </Card>
-</CardDeck>
-  
-  </div>
+<Card style={{ width: '18rem' }}>
+  <Image variant="top" width='300px300' src="https://avatars1.githubusercontent.com/u/13217677?s=400&u=c717507a6bb32de717e79f6a97f0bc6a559baee6&v=4/171x180" thumbnail />
+  <Card.Body>
+    <Card.Title>Priyansi Singh</Card.Title>
+    <Card.Text>
+    Wed Developer
+    </Card.Text>
+    <Nav.Link>https://github.com/Priyansi</Nav.Link>
+  </Card.Body>
+</Card>
+<br/>
+
+<Card style={{ width: '18rem' }}>
+  <Image variant="top" width='300px300' src="https://avatars1.githubusercontent.com/u/35634788?s=400&v=4/171x180" thumbnail />
+  <Card.Body>
+    <Card.Title>Biswaroop Bhattacharjee</Card.Title>
+    <Card.Text>
+     Machine Learning Enthusiast
+    </Card.Text>
+    <Nav.Link>https://github.com/biswaroop1547</Nav.Link>
+  </Card.Body>
+</Card>
+<br/>
+
+<Card style={{ width: '18rem' }}>
+  <Image variant="top" width='300px300' src="https://avatars0.githubusercontent.com/u/51132453?s=400&u=a818e0b7211341751f6d03b377e2eee2ccaf574d&v=4" thumbnail />
+  <Card.Body>
+    <Card.Title>Saswata Mukherjee</Card.Title>
+    <Card.Text>
+      Wed Developer
+    </Card.Text>
+    <Nav.Link>https://github.com/saswatamcode </Nav.Link>
+  </Card.Body>
+</Card>
+<br/>
+</CardColumns>
+</div>
 )
